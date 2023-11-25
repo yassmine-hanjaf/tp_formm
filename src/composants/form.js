@@ -60,7 +60,7 @@ export default function Form() {
           <label className="form-label text-danger">Loisirs:</label>
           <div className="form-check">
             <input type="checkbox" className="form-check-input" name="loisirs" value="sport" onChange={(e) => handleloisirs(e)} />
-            <label className="form-check-label">Sport</label>
+            
           </div>
           <div className="mb-3">
           <div className="form-check">
